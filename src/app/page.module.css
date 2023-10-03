@@ -16,10 +16,12 @@
 
 .risk {
   text-align: left;
-  max-width: 750px;
+  font-size: medium;
+  font-weight: lighter;
   margin-left: auto;
   margin-right: auto;
-  min-width: 1000px;
+  line-height: 28px;
+  width: 65vw;
 }
 
 .span {
@@ -51,4 +53,43 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.by {
+  font-weight: 100;
+  color: grey;
+}
+
+.tag {
+  font-weight: 300;
+  font-size: smaller;
+  margin-top: -10px;
+}
+
+.rordesc {
+  max-width: 10px;
+}
+
+.video {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.related {
+  padding-left: 5px;
+  transform: translateY(0px);
+  display: block;
+  color: white;
+  }
+
+.reminder {
+  margin-top: 52px;
+  font-weight: 100;
+  color: aliceblue;
+}
+
+.newt {
+  display: flex;
+  gap: 20px;
 }

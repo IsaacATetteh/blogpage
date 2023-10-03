@@ -5,3 +5,37 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+a {
+  font-weight: bold;
+  font-size: 25px;
+  max-height: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+h2 {
+  position: relative;
+  display: inline;
+  padding-left: 5px;
+  font-size: 20px;
+  color: orange;
+}
+h2::after {
+  content: '';
+  width: 6px;
+  height: 55px;
+  display: block;
+  background-color: orange;
+  display: block;
+  position: absolute;
+  right: 0;
+  left: -6px;
+  transform: translateY(-50%);
+}
+
+ul {
+  list-style-type: none;
+}
