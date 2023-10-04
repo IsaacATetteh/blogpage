@@ -3,9 +3,9 @@
   font-weight: 500;
   font-family: Helvetica, sans-serif;
 }
-
-
-
+.root {
+  margin-bottom: 35px;
+}
 
 .divider {
   border: 1px solid black;
@@ -67,7 +67,7 @@
 }
 
 .rordesc {
-  max-width: 10px;
+  max-width: 100px;
 }
 
 .video {
@@ -87,9 +87,66 @@
   margin-top: 52px;
   font-weight: 100;
   color: aliceblue;
+  
 }
 
 .newt {
   display: flex;
   gap: 20px;
 }
+
+.mapdesc {
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 28px;
+}
+
+.maptitle {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+
+.list_header {
+  font-size: 20px;
+  margin-bottom: -10px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.monsters li {
+  padding-bottom: 10px;
+  font-weight: 100;
+  color: rgb(106, 106, 230);
+  display: flex; /* Use flex to align the image and text horizontally */
+  align-items: center; /* Center items vertically within the list item */
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+  width: 30%;
+}
+
+/* Style for the monster image */
+img.monsterImage {
+  width: 30px;
+  height: auto;
+  margin-right: 10px; /* Adjust the margin to space out the image and text */
+}
+.imageAndList {
+  display: flex;
+  align-items: flex-start;
+  gap: 230px;
+}
+img.fightImage {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+}
+
+

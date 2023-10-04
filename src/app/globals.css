@@ -35,6 +35,9 @@ h2::after {
   left: -6px;
   transform: translateY(-50%);
 }
+ul.styles.monsters {
+  list-style-type: disc; /* Set the desired list style type here */
+}
 
 ul {
   list-style-type: none;
